@@ -2,9 +2,20 @@
 
 ## Try it out
 
+### On Windows
+
 From [releases](todo)
 
+### On Linux
+
+You probably can build it yourself.
+
+I don't care about MacOS.
+
 ## Building
+
+For intended build process you need CMake and a C compiler.
+Newest commit of raylib will also be downloaded and built so you need [all of stuff required to build raylib](https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux#building-library).
 
 1. Initialize submodules: `git submodule update --init --recursive`
 2. Build with CMake: `cmake -B build . && cmake --build build`
