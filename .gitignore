@@ -1,0 +1,7 @@
+# cmake:
+build
+# deprecated:
+sprites_bmp
+atlas
+# vscode:
+.vscode
