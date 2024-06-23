@@ -19,7 +19,7 @@ From [releases](todo)
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Raylib is licensed under the zlib/libpng License - see the [Raylib LICENSE](third_party/raylib/LICENSE) file for details.
+Raylib is licensed under the zlib/libpng License - see the [Raylib LICENSE](https://github.com/raysan5/raylib/blob/d582becbc2a358202de65cac39bd68ed9148a731/LICENSE) file for details.
 
 About resources:
 
