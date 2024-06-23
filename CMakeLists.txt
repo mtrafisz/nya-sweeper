@@ -16,4 +16,9 @@ target_sources(${PROJECT_NAME} PRIVATE ${SRC_FILES})
 target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_INCLUDE})
 target_link_libraries(${PROJECT_NAME} PRIVATE raylib)
 
-target_compile_definitions(${PROJECT_NAME} PUBLIC ASSETS_PATH="${CMAKE_CURRENT_LIST_DIR}/assets/")
+target_compile_definitions(${PROJECT_NAME} PUBLIC ASSETS_PATH="./assets/")
+add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    ${CMAKE_CURRENT_LIST_DIR}/assets
+    $<TARGET_FILE_DIR:${PROJECT_NAME}>/assets
+)
