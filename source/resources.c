@@ -1,6 +1,7 @@
 #include "resources.h"
 
 #include <stddef.h>
+#include <stdio.h>
 
 void resources_load(struct _resources_s *resources) {
     Image spritesheet_image = LoadImage(ASSETS_PATH "sprites/spritesheet.png");
