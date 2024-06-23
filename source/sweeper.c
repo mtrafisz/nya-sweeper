@@ -499,7 +499,7 @@ void sweeper_draw(sweeper_t *sweeper) {
     );
 
     int flags_left = mines - count_flagged_cells(sweeper);
-    const text_font_size = TILE_SIZE_PX * 12/9;
+    const int text_font_size = TILE_SIZE_PX * 12/9;
 
     char flag_left_str[4] = {0};
     char time_str[6] = {0}; 
