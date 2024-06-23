@@ -4,7 +4,7 @@
 
 ### On Windows
 
-From [releases](todo)
+From [releases](https://github.com/mtrafisz/nya-sweeper/releases/tag/v1.0.0)
 
 ### On Linux
 
