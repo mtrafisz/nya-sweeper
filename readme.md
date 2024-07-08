@@ -6,17 +6,11 @@
 
 From [releases](https://github.com/mtrafisz/nya-sweeper/releases/tag/v1.0.0)
 
-### On Linux
-
-You probably can build it yourself.
-
-I don't care about MacOS.
-
 ## Building
 
 For intended build process you need CMake and a C compiler.
 
-On Linux you will also need [all of stuff required to build raylib](https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux#building-library).
+On Linux you will also need [all of the stuff required to build raylib](https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux#building-library).
 
 1. Initialize submodules: `git submodule update --init --recursive`
 2. Build with CMake: `cmake -B build . && cmake --build build`
@@ -31,7 +25,7 @@ On Linux you will also need [all of stuff required to build raylib](https://gith
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Raylib is licensed under the zlib/libpng License - see the [Raylib LICENSE](https://github.com/raysan5/raylib/blob/d582becbc2a358202de65cac39bd68ed9148a731/LICENSE) file for details.
+Raylib is licensed under the zlib/libpng License - see the [Raylib LICENSE](https://github.com/raysan5/raylib/blob/d582becbc2a358202de65cac39bd68ed9148a731/LICENSE) file for details. I do not claim any rigthts to this project.
 
 About resources:
 
