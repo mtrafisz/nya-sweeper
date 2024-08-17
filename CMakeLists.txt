@@ -2,7 +2,9 @@ cmake_minimum_required(VERSION 3.5)
 project(nya-sweeper C)
 set (CMAKE_C_STANDARD 23)
 
-include(FetchContent)
+execute_process(COMMAND git submodule init
+                COMMAND git submodule update --depth=1)
+
 set(BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 set(BUILD_GAMES OFF CACHE BOOL "" FORCE)
 
